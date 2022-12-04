@@ -1,0 +1,13 @@
+
+gac=git add . && git commit
+gi=git init && gac -m 'Initial commit'
+gp=git push
+gpo=git push origin \$(git rev-parse --abbrev-ref HEAD)
+gpu=git push -u
+gpou=git push -u origin \$(git rev-parse --abbrev-ref HEAD)
+gst=git status
+glog=git log
+gfo=git fetch origin
+gam=git commit --amend
+gadm=git add . && git commit --amend
+gremote=git remote -v
